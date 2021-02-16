@@ -1,5 +1,5 @@
 #wrapper{
-    height: 100vh;
+    height: 100%;
 }
 #top-header{
     height: 40px;
@@ -40,12 +40,20 @@
 footer{
     background-color: #f5f5f5;
     min-height: 40px;
-    margin-top: -40px;
 }
 /* SLICK */
 .slick-slide img {
     display: block;
     width: 100%;
+}
+.we-slider-item{
+    padding: 10px;
+}
+.we-slider-item h4{
+    text-align: center;
+}
+.we-slider-item span{
+    font-size: 0.8em;
 }
 /* END SLICK */
 @media (min-width: 576px) { ... }
