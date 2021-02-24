@@ -55,6 +55,10 @@ footer{
 .we-slider-item span{
     font-size: 0.8em;
 }
+.map-contact{
+    display: flex;
+    flex-direction: column;
+}
 /* END SLICK */
 @media (min-width: 576px) { ... }
 
