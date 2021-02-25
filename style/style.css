@@ -1,6 +1,9 @@
 #wrapper{
     height: 100%;
 }
+#main{
+    height: 300px;
+}
 #top-header{
     height: 40px;
     display: flex;
@@ -58,6 +61,9 @@ footer{
 .map-contact{
     display: flex;
     flex-direction: column;
+}
+.footer-menu{
+    list-style: none;
 }
 /* END SLICK */
 @media (min-width: 576px) { ... }
