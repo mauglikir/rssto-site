@@ -1,8 +1,7 @@
 <!DOCTYPE html >
 <html lang="en">
 <head>
-  <meta name="Access-Control-Allow-Origin" content="*" />
-<meta name="Access-Control-Allow-Headers" content="*" />
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Диагностика и ремонт автомобилей: тормозной системы, автоэлектрики, замена масла, шиномонтаж, ремонт подвески, двигатель">
@@ -148,11 +147,6 @@
           mounted () {
             axios
               .get('http://api.rossko.ru/service/v2.1/GetSearch',{
-                headers: {"Access-Control-Allow-Origin": "*"},
-                proxy: {
-                  host: 'localhost',
-                  port: 8080
-                },
                 params: {
                   KEY1: 'a55ca30b82af7c98ad5c655b9460819b',
                   KEY2: '0700c49286e433a2036456d5edc5bbe1',
