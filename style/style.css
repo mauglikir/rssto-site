@@ -103,6 +103,7 @@ footer{
         width: 0;
         height: 100%;
         display: flex;
+        flex-wrap: nowrapß;
         z-index: 999;
         transition: 0.3ms ;
         -webkit-transition: 0.3ms ;
