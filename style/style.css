@@ -132,6 +132,32 @@ footer{
     #navbarNavTest.open .navbar-nav .nav-item{
         padding-left: 3em;
     }
+    .burger{
+        width: 35px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .line-burger{
+        border-bottom: 2px solid #000;
+        width: 100%;
+        position: absolute;
+    }
+    .line-burger:nth-child(1){
+        top: 0;
+    }
+    .line-burger:nth-child(4){
+        bottom: 0;
+    }
+    .line-burger:nth-child(3), .line-burger:nth-child(2){
+        top:50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
  }
 
 /* Medium devices (tablets, 768px and up) */
