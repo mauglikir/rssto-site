@@ -20,7 +20,6 @@
     align-self: center;
 }
 .nav-wrapp{
-    align-items: flex-end !important;
     padding: 0 !important;
 }
 .btn-my-call{
@@ -153,10 +152,13 @@ footer{
         height: 45px;
     }
     #navbarNavTest {
+        background-color: #fff;
+        left: -100%;
+        position: absolute;
         width: 0;
         height: 100%;
         display: flex;
-        flex-wrap: nowrapß;
+        flex-wrap: nowrap;
         z-index: 999;
         transition: 0.3ms ;
         -webkit-transition: 0.3ms ;
@@ -164,8 +166,18 @@ footer{
         -ms-transition: 0.3ms ;
         -o-transition: 0.3ms ;
     }
+    #navbarNavTest.show {
+        left: 0;
+        width: 60%;
+        
+    }
+    #navbarNavTest.show .navbar-nav{
+        background-color: #fff;
+        
+    }
     #navbarNavTest .navbar-nav{
         display: none
+
     }
     #navbarNavTest.open{
         width: 200px;
@@ -211,7 +223,10 @@ footer{
         -moz-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
-}
+    }
+    .list-style-rssto a{
+        font-size: 0.8em;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
