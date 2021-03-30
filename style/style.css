@@ -21,6 +21,7 @@
 }
 .nav-wrapp{
     padding: 0 !important;
+    flex-wrap: nowrap !important;
 }
 .btn-my-call{
     border: none;
