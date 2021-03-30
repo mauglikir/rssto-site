@@ -176,10 +176,7 @@ footer{
         background-color: #fff;
         
     }
-    #navbarNavTest .navbar-nav{
-        display: none
-
-    }
+    
     #navbarNavTest.open{
         width: 200px;
         display: flex;
