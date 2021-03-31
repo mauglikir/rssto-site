@@ -168,6 +168,9 @@ footer{
     .navbar-brand img{
         height: 45px;
     }
+    .navbar{
+        flex-wrap: nowrap !important;
+    }
     #navbarNavTest {
         background-color: #fff;
         left: -100%;
